@@ -1,0 +1,12 @@
+.container {
+  background: linear-gradient(45deg, #3e3c7d, #1c1b3b, #0c0237, #0c0237, #2c1a37, #492b5d);
+
+  height: 100%;
+  padding: 32px 128px;
+
+  svg[id='logo'] {
+    margin: 0 auto;
+
+    height: 20px;
+  }
+}

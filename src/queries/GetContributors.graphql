@@ -1,0 +1,15 @@
+query GetContributors {
+  contributorCard_All {
+    items {
+      email
+      fullName
+      githubLink
+      linkedinLink
+      roleInProject
+      shortDescription
+      profilePicture {
+        url
+      }
+    }
+  }
+}

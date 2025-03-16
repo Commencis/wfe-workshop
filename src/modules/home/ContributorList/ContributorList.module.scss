@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 16px;
+
+  width: 80%;
+
+  flex-direction: column;
+  text-align: center;
+}
+
+.list {
+  display: grid;
+  gap: 16px;
+
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,8 @@
+# lock file
+pnpm-lock.yaml
+
+# production
+dist
+
+# generated
+__generated__

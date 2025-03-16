@@ -1,0 +1,40 @@
+@use '../../../styles/functions/color' as *;
+
+.content {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+
+  flex-direction: column;
+  text-align: center;
+
+  img {
+    border-radius: 16px;
+    border: 2px solid rgba(color(accent, 100), 0.6);
+    filter: grayscale(0.8);
+
+    height: 96px;
+    width: 96px;
+  }
+
+  .header {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .socials {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+    a {
+      color: color(neutral, 400);
+
+      &:hover {
+        color: color(neutral, 300);
+      }
+    }
+  }
+}
