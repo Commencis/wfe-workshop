@@ -27,6 +27,7 @@ export const router = createBrowserRouter([
   {
     path: ROUTES.HOME.PATH,
     element: <PrivateRoute />,
+    hydrateFallbackElement: <Loading />,
     children: [
       {
         id: ROUTES.HOME.ID,
