@@ -37,12 +37,12 @@ export function ContributorCard({
         </Text>
         <div className={css.socials}>
           {linkedinLink && (
-            <a href={`http://${linkedinLink}`} target="_blank" rel="noreferrer">
+            <a href={linkedinLink} target="_blank" rel="noreferrer">
               <Icon name="linkedin" />
             </a>
           )}
           {githubLink && (
-            <a href={`http://${githubLink}`} target="_blank" rel="noreferrer">
+            <a href={githubLink} target="_blank" rel="noreferrer">
               <Icon name="github" />
             </a>
           )}

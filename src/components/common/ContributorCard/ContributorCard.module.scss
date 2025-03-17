@@ -9,9 +9,10 @@
   text-align: center;
 
   img {
-    border-radius: 16px;
     border: 2px solid rgba(color(accent, 100), 0.6);
-    filter: grayscale(0.8);
+    border-radius: 16px;
+    object-fit: cover;
+    filter: grayscale(1);
 
     height: 96px;
     width: 96px;
